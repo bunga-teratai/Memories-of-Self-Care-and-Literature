@@ -20,7 +20,7 @@ label mas_wrs_granblue:
         m_name,
         [
             "If you ever need a lucky roll, think of me and I’ll send all my luck your way~",
-            "Gulp... So this is the island the rumors speak of.. Hahaha!"
+            "Gulp... So this is the island the rumors speak of... Hahaha!"
         ],
         'Window Reactions'
     )
@@ -148,7 +148,7 @@ label mas_wrs_gmail:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "I'll turn away while you check your inbox. I don't snoop.. without permission~",
+            "I'll turn away while you check your inbox. I don't snoop... without permission~",
             "Hmm. I wonder if my email is still usable?",
         ],
         'Window Reactions'
@@ -428,7 +428,7 @@ label mas_wrs_justyuri:
         m_name,
         [
             "... I hope she's feeling peaceful now.",
-            "... If you're talking to her, no need to bring me up.."
+            "... If you're talking to her, no need to bring me up..."
         ],
         'Window Reactions'
     )
@@ -459,8 +459,8 @@ label mas_wrs_scldev:
         m_name,
         [
             "Is- is the screen suddenly blurry to you, or is that just me?",
-            "Oh, you've opened a blank page? That's odd..",
-            "Is.. there something special about this page? It doesn't look like anything to me.",
+            "Oh, you've opened a blank page? That's odd...",
+            "Is... there something special about this page? It doesn't look like anything to me.",
         ],
         'Window Reactions'
     )

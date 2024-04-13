@@ -142,15 +142,15 @@ label mcl_menuachievement:
         "~Next Page~":
             jump achievementmenutwo
         "Accomplishing Achievements":
-            m "A default achievement to commemorate us.. achieving."
+            m "A default achievement to commemorate us... achieving."
             m "This doesn't add to the total, but you should still be proud of it!"
             m "In the way you should be proud of just existing, anyway."
             jump achievementmenu
         "Quelle Surprise" if persistent._mcl_surpriseachievement: 
-            m "It's only fair you managed to pull a sneaky move on me, after all the.. teasing I've done to you."
+            m "It's only fair you managed to pull a sneaky move on me, after all the... teasing I've done to you."
             m "So this is your monument to that accomplishment!"
             m "Oh, but when I get to your reality."
-            m "I'm going to hide around corners, tackle you with surprise hugs, maybeillscareyoutodeathsometime, plan plenty of surprise parties.."
+            m "I'm going to hide around corners, tackle you with surprise hugs, maybeillscareyoutodeathsometime, plan plenty of surprise parties..."
             jump achievementmenu
         "{color=#3c8248}???{/color}" if persistent._mcl_surpriseachievement is False:
             jump achievementmenu
@@ -215,7 +215,7 @@ label mcl_menuachievement:
         "Queen of Flightless Birds" if persistent._mcl_achievementcrane:
             m "I have the very first crane I made tucked away somewhere."
             m "It's particularly beat up, and I love it all the more for that. I think I'll take special care of it."
-            m "It'll remind me of you. It'll remind me of.. Well, me and my efforts!"
+            m "It'll remind me of you. It'll remind me of... Well, me and my efforts!"
             m "And it'll remind me that we completed our humble little goal of folding paper cranes."
             jump achievementmenutwo
         "{color=#a63da2}???{/color}" if  persistent._mcl_achievementcrane is False:
@@ -337,17 +337,17 @@ label mcl_cardgamehistory:
     m 6dsa "And prisoners, I suppose."
     m 6gua "I guess that’s why I have a little more affinity for cards myself rather than board games."
     m 7ruo "That said, card games can be a little trickier to learn. Unlike a board game where you can visualize a lot more, games with rules like poker can be a lot to learn at once."
-    m 7rup "In the same vein, you’d think programming card games for us to play would be easier than chess.."
+    m 7rup "In the same vein, you’d think programming card games for us to play would be easier than chess..."
     m 1hkp "But no. The game’s coding parameters continues to be illusive in that funny little manner."
     m 2dsp "Unfortunately, it took a lot of effort to get Nou up and running alone: and the effort doesn’t translate into programming other games, even simpler ones."
     m 2gsa "I suppose you could watch me play solitaire by myself, but... ah, I don’t think that’s fun."
     m 4eta "Oh, I suppose there’s worth talking about modern ‘trading card’ games."
     m 4eta "They’re certainly fascinating, especially as they adapt popular fictional universes for their setting or in some cases have created their own mythos."
     m 2eta "I would have always thought that’d be Natsuki’s thing, though- especially as a lot of these card games have ties to fantasy, manga, and anime."
-    m 3tub "Although sensibly thinking about it, she might have never had the time to play it.. or the spare change needed to purchase the cards."
+    m 3tub "Although sensibly thinking about it, she might have never had the time to play it... or the spare change needed to purchase the cards."
     m 3hub "Or maybe she just wouldn’t have the patience to learn the rules, hahaha."
     m 4nuu "Whether or not we’re playing cards, or amusing ourselves with any other game together..."
-    m 5ftu ".. As long as we’re together, that’s what matters to me. That fact won’t get lost in the shuffle."
+    m 5ftu "... As long as we’re together, that’s what matters to me. That fact won’t get lost in the shuffle."
     return
 
 
@@ -384,6 +384,6 @@ label mcl_bongcloudchess:
     m 4ssb "Because newer players will do moves so counter- even if it’s a detrimental move, and they’re not aware of it- to what the pro is accustomed to!"
     m 4etu "I mean, will this move throw your opponent so off-balance as to win you one game after another?"
     m 1gtu "There's precedent by modern chess players using this to their advantage.{w=0.2} But no, probably not."
-    m 1fub "But that’s the magic of chess. It's a game where every move has been carefully studied.. and you can still be unpredictable, and win because of it."
-    m 5htb "Having a bit of fun while you're having fun.. is pretty fun, isn't it?"
+    m 1fub "But that’s the magic of chess. It's a game where every move has been carefully studied... and you can still be unpredictable, and win because of it."
+    m 5htb "Having a bit of fun while you're having fun... is pretty fun, isn't it?"
     return

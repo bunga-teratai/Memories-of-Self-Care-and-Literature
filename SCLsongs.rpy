@@ -48,7 +48,7 @@ label mas_song_BBs_theme:
     m 1hta "But lullabies don't have to be complicated. This one is a simple song sung by a father to soothe his baby boy."
     m 4esa "In some cultures, lullabies aren't just meant to lull a child to sleep, but also pass down cultural folklore or superstition."
     m "Even through simple song, we're all bound by strands of some kind, huh?"
-    m 6dsa "I wonder if I'll ever need to sing one in the future. Or what lullaby will come to mind.."
+    m 6dsa "I wonder if I'll ever need to sing one in the future. Or what lullaby will come to mind..."
 return
 
 #Recollect Self-Care & Literature
@@ -77,7 +77,7 @@ label mas_song_without_a_weapon:
     m 3dfw "{i}~Loving you is warrrrrrr~{/i}"
     m 1hsa "Romance and violence are simple enough concepts to co-exist, if only for narrative purpose."
     m 1ksa "I for one would prefer a relationship to be without conflict, but there's no mistaking taking up arms for the sake of love is a concept that invokes passion."
-    m 7tta "Or.. maybe literally fighting off others. Or actually fighting somebody directly for their affection, hahaha!"
+    m 7tta "Or... maybe literally fighting off others. Or actually fighting somebody directly for their affection, hahaha!"
     m 7ttb "As you might also hear often: 'love is a battlefield?'"
     return
 
@@ -142,7 +142,7 @@ label mas_song_unpacking:
     m 5rsb "{i}~This is now ~ a home for two~{/i}"
     m 7eua "You know, I've lived in the same town all my life?"
     m 5fua "And it's not even a real town, heh."
-    m 5dua "So.. it's honestly hard for me to imagine packing up your entire life. And then unpacking it all in a brand new place."
+    m 5dua "So... it's honestly hard for me to imagine packing up your entire life. And then unpacking it all in a brand new place."
     m 2hsbla "I eagerly await the day you and I can expierence and share that complicated, fulfilling day."
     return
 
@@ -170,8 +170,8 @@ label mas_song_lonely_rolling_star:
     m 5hub "{i}~Tachidomaranaide nee~{/i}"
     m 7hub "{i}~Your lonely rolling star~{/i}"
     m 7hud "{i}~Saa mae wo muite yukou~{/i}"
-    m 3fkb "This song is about two lovers; one sings about how far away their partner is.."
+    m 3fkb "This song is about two lovers; one sings about how far away their partner is..."
     m 5gkb "But no matter how far they are, they'll keep cheering for their distant partner. For they'll come back eventually."
     m 7eta "Sometimes, in the face of adversity:"
-    m 1tsa "All you can do is keep on rolling, and rolling, and rolling.."
+    m 1tsa "All you can do is keep on rolling, and rolling, and rolling..."
     return

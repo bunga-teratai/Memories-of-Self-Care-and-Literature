@@ -75,7 +75,7 @@ init 5 python:
     )
 
 label bye_emeraldherald:
-    m 1eua "Always remember, I will always be at your side.."
+    m 1eua "Always remember, I will always be at your side..."
     m 1dsa "Until hope has fully withered."
     m "Bye, [player]."
     return 'quit'
@@ -221,27 +221,27 @@ init 5 python:
 label mcl_shopformonikacoffee:
     python:
         coffee_choices = [
-            _(".. I’m fine with instant coffee."),
-            _(".. Dark roast, if you please! Feel like something a little strong."),
-            _(".. Maybe some French Vanilla mix?"),
-            _(".. I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
-            _(".. Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
-            _(".. Cold brew coffee; I could go for something rich!"),
-            _(".. Decaf, please! Have to cut back on the caffeine a little."),
+            _("... I’m fine with instant coffee."),
+            _("... Dark roast, if you please! Feel like something a little strong."),
+            _("... Maybe some French Vanilla mix?"),
+            _("... I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
+            _("... Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
+            _("... Cold brew coffee; I could go for something rich!"),
+            _("... Decaf, please! Have to cut back on the caffeine a little."),
         ]
         coffeechoices = random.choice(coffee_choices)
        
     python:
         hotchocolate_choices = [
-            _("Maybe.. mint?"),
-            _("Maybe.. caramel?"),
-            _("Maybe.. white chocolate?"),
-            _("Maybe.. ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
-            _("Maybe.. peanut butter-flavoured?"),
-            _("Maybe.. that brand with a bit of cinnamon in it?"),
-            _("Maybe.. one made with dark chocolate?"),
-            _(".. I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
-            _(".. Actually, no, scratch that, I could go for a pick-me-up of coffee."),
+            _("Maybe... mint?"),
+            _("Maybe... caramel?"),
+            _("Maybe... white chocolate?"),
+            _("Maybe... ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
+            _("Maybe... peanut butter-flavoured?"),
+            _("Maybe... that brand with a bit of cinnamon in it?"),
+            _("Maybe... one made with dark chocolate?"),
+            _("... I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
+            _("... Actually, no, scratch that, I could go for a pick-me-up of coffee."),
         ]
         hotchocolatechoices = random.choice(hotchocolate_choices)
     
@@ -249,7 +249,7 @@ label mcl_shopformonikacoffee:
     if mas_consumable_hotchocolate.enabled and mas_isWinter():
             if random.randint(1, 3) == 1:
                 m "Ooh, actually, since it’s winter I should ask..."
-                m 1etblu "It doesn't have to be right away, but I've been thinking if possible, could you try to grab a different flavour of hot chocolate?.."
+                m 1etblu "It doesn't have to be right away, but I've been thinking if possible, could you try to grab a different flavour of hot chocolate?..."
                 m 7etblu "[hotchocolatechoices]"
                 m 3fsb "Or surprise me outright, if you want! Either way, thanks, [player]. Love you!"
                 return "quit"
@@ -259,7 +259,7 @@ label mcl_shopformonikacoffee:
         label asknewcoffee:
         if mas_consumable_coffee.isMaxedStock():
             m "So I checked, and I have plenty of coffee left. This said, when I get low;"
-        m 1etblu "It doesn't have to be right away, but I've been thinking I'd love to try a different type of coffee?.."
+        m 1etblu "It doesn't have to be right away, but I've been thinking I'd love to try a different type of coffee?..."
         m 7etblu "[coffeechoices]"
         m 3fsb "Or surprise me outright, if you want! Either way, thanks, [player]. Love you!"
         return "quit"
@@ -298,7 +298,7 @@ init 5 python:
 
 label bye_hype:
     m 1hsa "Okay, [player]!"
-    m 3nsb "It doesn't matter what time it is, where you're going, how long you're gone for.."
+    m 3nsb "It doesn't matter what time it is, where you're going, how long you're gone for..."
     m 1sub "I'm gonna send you off ready to take on the world."
     m 7sub "Say it with me: 'I'm gonna do my best!'"
     $ _history_list.pop()
@@ -330,24 +330,24 @@ label bye_prompt_shopformonika:
             _("Maybe… peanut butter-flavoured?"),
             _("Maybe… that brand with a bit of cinnamon in it?"),
             _("Maybe… one made with dark chocolate?"),
-            _(".. I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
-            _(".. Actually, no, scratch that, I could go for a new flavour of coffee."),
+            _("... I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
+            _("... Actually, no, scratch that, I could go for a new flavour of coffee."),
         ]
         hotchocolatechoices = random.choice(hotchocolate_choices)
     
     python:
         coffee_choices = [
-            _(".. I’m fine with instant coffee."),
-            _(".. Dark roast, if you please! Feel like something a little strong."),
-            _(".. Maybe some French Vanilla mix?"),
-            _(".. I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
-            _(".. Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
-            _(".. Cold brew coffee; I could go for something rich!"),
-            _(".. Decaf, please! Have to cut back on the caffeine a little."),
+            _("... I’m fine with instant coffee."),
+            _("... Dark roast, if you please! Feel like something a little strong."),
+            _("... Maybe some French Vanilla mix?"),
+            _("... I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
+            _("... Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
+            _("... Cold brew coffee; I could go for something rich!"),
+            _("... Decaf, please! Have to cut back on the caffeine a little."),
         ]
         coffeechoices = random.choice(coffee_choices)
     
-    m 1sublb "Hmm, let me think.."
+    m 1sublb "Hmm, let me think..."
     if mas_consumable_hotchocolate.enabled and mas_isWinter():
             if random.randint(1, 3) == 1:
                 m "Ooh, actually, since it’s winter..."
@@ -430,7 +430,7 @@ init 5 python:
     )
 
 label bye_rainbow:
-    m 7nfb "Okay, let me try this again.."
+    m 7nfb "Okay, let me try this again..."
     m 7hfb "Because I want to be all sparkles and colour when I see you off!"
     m 4sub "{rainbow}Goodbye, [player]!-{/rainbow}"
     if renpy.random.randint(1, 2) == 1:
