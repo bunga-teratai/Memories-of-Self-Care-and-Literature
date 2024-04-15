@@ -179,7 +179,7 @@ label mcl_mood_older:
             m 4esd "And the feeling’ll pass...even if temporarily. For now, I just want to be here for you right now."
             m 3dsd "Don't think about any hostile tomorrows. No wasted yesterdays."
             m 2eka "We won’t even think about today as a whole. Just {i}this{/i} little moment in time, this {i}one{/i} minute with us both."
-            m 5dka "And the minute after.{w=0.7} And the next.{w=0.7} And then after that…"
+            m 5dka "And the minute after.{w=0.7} And the next.{w=0.7} And then after that..."
             return
         
         "Not sure, to be honest.":

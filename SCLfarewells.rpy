@@ -323,13 +323,13 @@ init 5 python:
 label bye_prompt_shopformonika:
     python:
         hotchocolate_choices = [
-            _("Maybe… peppermint?"),
-            _("Maybe… caramel?"),
-            _("Maybe… white chocolate?"),
-            _("Maybe… ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
-            _("Maybe… peanut butter-flavoured?"),
-            _("Maybe… that brand with a bit of cinnamon in it?"),
-            _("Maybe… one made with dark chocolate?"),
+            _("Maybe...peppermint?"),
+            _("Maybe...caramel?"),
+            _("Maybe...white chocolate?"),
+            _("Maybe...ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
+            _("Maybe...peanut butter-flavoured?"),
+            _("Maybe...that brand with a bit of cinnamon in it?"),
+            _("Maybe...one made with dark chocolate?"),
             _("...I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
             _("...Actually, no, scratch that, I could go for a new flavour of coffee."),
         ]

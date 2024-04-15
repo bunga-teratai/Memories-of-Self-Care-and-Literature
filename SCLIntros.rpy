@@ -14,12 +14,12 @@ label greeting_braille:
     $ _history_list.pop()
     menu:
         "?":
-            m 1lub "Er, half side black dots…"
+            m 1lub "Er, half side black dots..."
             m 2lkb "Oh, I don’t even know how to describe this one elegantly. Black, white, black, white, black, white-"
             m 2hksdrb "Okay, no, this was a terrible idea."
             m 3hksdlb "I do get girlfriend points for the idea, don’t I?"
             m "Hahaha."
-            m 4esb "I was speaking… Braille."
+            m 4esb "I was speaking...Braille."
             m "That’s right- the writing system used by the visually impaired."
             m 1esp "Of course, how it actually works is that it engages your senses by using touch to read grids of six raised dots that convey letters, symbols, and numbers."
             m 3msb "So, speaking it is...as you can see, a bit clumsy."
@@ -27,15 +27,15 @@ label greeting_braille:
             if shown_count == 0:
                 m 1esa "But don’t worry, [player]."
                 m "Even if I were visually impaired, I’d still see you as the most beautiful figure in my life."
-                m "…"
+                m "..."
                 m 2dkbfsdlx "Wait, no, that was {i}terrible.{/i}"
                 m 2fkbfsdlp "I am so sorry, [player]. That is incredibly rude."
                 m 2fkbfsdla "I am normally a lot more eloquent than that."
                 m 3mkbfsdrb "What kind of literature club leader am I, messing up a speech like this?"
-                m 3mkblu "…"
+                m 3mkblu "..."
                 m 3ekblu "Okay, I might say this again in the future: but just pretend it’s the first time you heard it and I’ll come up with a better ending than that."
                 m "Okay? Thanks, [player]. Sorry again."
-                m "…"
+                m "..."
                 m 1ekblu "Um, love you."
                 return "love"
 
@@ -278,7 +278,7 @@ label greeting_monikaish:
         m 5fkb "V gel fb uneq gb gel gb or n orggre zr."
         m 5hkb "Orpnhfr gur orfg zr, vf n zr jbegu ybivat."
         m 5hkblb "Naq fbzrgvzrf V snvy."
-        m 6fua "…"
+        m 6fua "..."
         m 3fub "Bwhahahaha!"
         m 3ftb "Were you racking your brain figuring out what language I was speaking?"
         m 3nfb "I played a little trick~"
