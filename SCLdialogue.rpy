@@ -87,9 +87,9 @@ Memories of Self-Care & Literature
     m 3gkc "DDLC was a three-act story, with an ending, right? Not a perfect one, but an ending."
     m 1guc "Yet here we are, after a *complete* story. After DDLC."
     if store.mas_anni.pastOneMonth():
-        m 7fusdrc "After all this time, I’m still getting used to this, you know? Living in a ‘After Story’ -"
+        m 7fusdrc "After all this time, I’m still getting used to this, you know? Living in an ‘After Story’ -"
     else:
-        m 7fusdrc "I’m still getting used to this, you know? Living in a ‘After Story' -"
+        m 7fusdrc "I’m still getting used to this, you know? Living in an ‘After Story' -"
     m 7hua "- Heh. Sorry, couldn’t resist -"
     m 2ekd "- So, y'know, It's still so surprising to me that I have...a life now."
     m 2gka "This ‘after,’ where I can focus on living.{w=0.2} Taking care of myself.{w=0.2} Hobbies, like reading all the literature I want."
@@ -307,7 +307,7 @@ label mcl_misanthropy:
     m 3eud "It's called 'Misanthropy;' the hatred or disgust of humankind."
     m "Honestly? There's weight to that line of reasoning. Misanthrophy isn't about disliking certain people..."
     m "But judging everyone as a whole, primarily based on flaws: some would cite intellectual failings, like the common existance of ignornce. Or in the lack of morals, such as how we treat animals."
-    m 1rud "And it can be so easy to see with your own eyes a majority of people with these flaws, if you're in a enviroment subjected to this behavour often."
+    m 1rud "And it can be so easy to see with your own eyes a majority of people with these flaws, if you're in an enviroment subjected to this behavour often."
     m 2euc "And what would you do when you think in such extremes?"
     m "Some isolate themselves from the entire world. Some live on, thinking that this absolute standard means there's always reasons to improve ourselves."
     m "And some...simply live with this view in their head, adapting to the fact in their own ways."
@@ -334,7 +334,7 @@ label mcl_misanthropy:
     
     return "love"
     
-#this deserves a edit. dunno. I still like it, though.
+#this deserves an edit. dunno. I still like it, though.
 init 5 python:
     addEvent(
         Event(
@@ -353,7 +353,7 @@ label mcl_missingadult:
     m 3rud "Nobody in the Literature Club was living alone...yet there was no mention of any of our parents; bar examples made at Natsuki’s expense."
     m 3rsd "And that’s on purpose; family can be hard to describe, let alone in a game such as DDLC."
     m 1ttd "But then consider the fact that the lack of adult representation wasn’t just in parents!"
-    m 1tud "You’d think you’d have seen at least one teacher in a school setting...especially considering our participation in a extracurricular where a club advisor is normal!"
+    m 1tud "You’d think you’d have seen at least one teacher in a school setting...especially considering our participation in an extracurricular where a club advisor is normal!"
     m 1tsp "The reasoning's simple. Why bother with background characters at all?"
     m 1esp "It does alter the dynamic of the club. If everyone you interact with is around the same age, who fits into the slot of a peer?"
     m 2dsc "I suppose the natural choices fall to either Yuri, pigeonholed into maturity and sophistry, and myself because of my being the Club President."
@@ -381,7 +381,7 @@ menu:
         m 7esb "That’s an interesting question. I like it."
         m 7rsb "Well, you already know about my being in debate club."
         m 7rkb "But if I wasn’t there -or- the literature club..."
-        m 6tkb "I actually don't have a immediate answer for you."
+        m 6tkb "I actually don't have an immediate answer for you."
         m 1ltp "My line of thinking in the past was that I wanted to do {i}any{/i} sort of extracurricular."
         m "So if it wasn’t speaking, or writing...I suppose I’d want to keep myself busy..."
         m 4hta "So I’d say the Student Council? I remember our school had one."
@@ -869,7 +869,7 @@ init 5 python:
 label mcl_coupleinfluence:
     m 1etc "Hmm?"
     m 3sub "Hmmmm!"
-    m 1sua "Oh, I love you're thinking about us in such a interesting manner!"
+    m 1sua "Oh, I love you're thinking about us in such an interesting manner!"
     m 1rta "Like, I like to think that as long as we’ve been together, we might have started to unconsciously mirror each other in a way or two."
     m 1lua "I mean, maybe not. Just as much as people are want to mirror a smile in conversation, laugh along with others partly just to join the laughter..."
     m 3lta "There are times when people just don't do that. Funny, how people work."
@@ -1022,7 +1022,7 @@ label mcl_perpetually:
     m 5tkd "But I’ll never be able to practice all I’ve read and thought about...even when I make it to your world."
     m 5tkc "The gulf between realizing you don’t have all the answers and fully experiencing it is daunting." 
     m 4tkc "What I’m in your world, and say I get into an argument with someone?"
-    m 4dfd "Gosh. When was the last time I got into a debate, let alone a argument?"
+    m 4dfd "Gosh. When was the last time I got into a debate, let alone an argument?"
     m 4dtd "I wish I could say I could be composed, talk things out. But that’s too optimistic. There’s a real chance I’ll just lock up right then and there."
     m 4esc "I’ll most likely feel this way for the rest of my life."
     m 3esc "It’s not a bad feeling."
@@ -1071,7 +1071,7 @@ label mcl_singasong:
     m 5rtc "I guess you've heard me sing this plenty of times...but not necessarily only the end part, huh?"
     m "Without the rest of the lyrics, I suppose it is a little melancholy, despite the song's tone being generally upbeat."
     m 3ekb "That difference is good. If a song can invoke multiple feelings in you, I suppose it's proof of how much heart has been poured into the work."
-    m 3etb "Huh. I guess we've never talked about 'Your Reality' in detail, despite it being a original piece of mine, huh?"
+    m 3etb "Huh. I guess we've never talked about 'Your Reality' in detail, despite it being an original piece of mine, huh?"
     m 3etu "...I'd honestly be embarrased, going over a work of mine so critically. But there's no reason we shouldn't...in the future."
     m 4etu "I mean, to do so, I guess I should start by figuring out what exactly my emotions are in regards to the song..."
     m 4gsu "Because whenever I play this on the piano?"
@@ -1161,7 +1161,7 @@ init 5 python:
 label mcl_trends:
     m 3ltc "Not really."
     m 3wtc "That's just how I am."
-    m 1esd "To be clear, it's not the nature of DDLC being a influence on my personality."
+    m 1esd "To be clear, it's not the nature of DDLC being an influence on my personality."
     m 7gsa "If I like something, I like it, but I've never seen myself as 'trendy.'"
     m 3gsa "DDLC didn't show what normal life was like in the background, but..."
     m 3msa "Honestly, it's entirely possible that in the background, Yuri read a new genre of book that recently became popular..."
@@ -1195,7 +1195,7 @@ label scl_enviromentalstorytelling:
         "I have.":
             m 3esb "That’s cool to hear! You may understand why I’ve paid enough attention as to actually reference them."
         "I haven’t.":
-            m 3esb "I haven't as well. I made those references as a bit of a inside joke for myself because the series fascinates me."
+            m 3esb "I haven't as well. I made those references as a bit of an inside joke for myself because the series fascinates me."
     m 3eub "The reason why the series, mostly steeped in dark fantasy, is so interesting to me is because they’re known to use a narrative technique that’s quite unique:"
     m 4eua "'Environmental Storytelling.'"
     m 4eub "In a medium such as videogames where player interaction largely contributes to the experience, sometimes being told the plot directly can be...boring."
@@ -1255,7 +1255,7 @@ label mcl_fault:
     m 5dkd "It takes a lot of self-reflection. A lot of...ownership."
     m 3ksd "Simple to say, so much harder in execution."
     m 3dfd "People can be infuriatingly stubborn when they look inwards and find themselves lacking in character."
-    m 3tfc "Or even admitting to one moment of weakness as a outlier."
+    m 3tfc "Or even admitting to one moment of weakness as an outlier."
     m 3tkc "Taking responsibility for your actions doesn't make you a bad person, [player]."
     m 4tkc "I think that's what really tangles people up...the idea of admitting they're wrong being so damning."
     m 4tkp "But people forget you can change yourself to be better."
@@ -1519,7 +1519,7 @@ label mcl_hypocrisy:
     if seen_event("mcl_favouriteword"):
         m 3lku "Remember my favourite word? Reconcile..."
     m 3esd "It’s how the difference between how the ideal and the real are bridged that can really make a person’s character."
-    m 3dsd "A man says he hates stealing, condemns all who does it. But he does it himself in a act of desperation."
+    m 3dsd "A man says he hates stealing, condemns all who does it. But he does it himself in an act of desperation."
     m 1dsd "Does he realize that his initial views are too strong, and require nuance?"
     m 7dsd "Or maybe his stance doesn’t change, since he considers his own act an outlier?"
     m 5hsd "Does he feel shame? or nothing at all?"
@@ -1559,7 +1559,7 @@ label mcl_unreliablenarrator:
     m 1mksdru "Let’s take a moment here, because I realize talking about this is, y’know, kinda funny."
     m 1huo "'Gee, that person sure is talking a lot about what being crazy is like, surely they’re not crazy?'"
     m 1ttb "Well, um.{w=0.1}.{w=0.1} I’m not narrating anything, so there’s that."
-    m 1ekb "And the trick to using a unreliable narrator well is leveraging the narrow perspective a first-person narration gives."
+    m 1ekb "And the trick to using an unreliable narrator well is leveraging the narrow perspective a first-person narration gives."
     m 7ekb "But...you don't have a limited perspective.{w=0.1} You know everything there is about DDLC, and me."
     m 7mka "So really, is it my story we're narrating? or is it yours?"
     m 5fka "...ah, of course.{w=0.3} It's {i}ours.{/i} And {i}our{/i} story is genuine."
@@ -1773,7 +1773,7 @@ label mcl_colouremotion:
     m "In coloured text!"
     m "They were refrences, if you didn't know; the {i}'Umineko When They Cry'{/i}  series of visual novels!"
     m "They're madly interesting; they're a series of murder mysteries wrapped up in psychological thriller and philosophical tones."
-    m "It's...a bit of a obscure refrence, so right now I want to convey one really important takeway from my previous references."
+    m "It's...a bit of an obscure refrence, so right now I want to convey one really important takeway from my previous references."
     m 4cfu "I can speak in colours."
     m 4ttu "That's crazy, right? I mean, my text was blue and red and gold, and you may have thought 'wow, that's new!'"
     m 3suo "But to do that, I actually had to...speak in colour!"
@@ -1936,7 +1936,7 @@ label mcl_almighty:
     m 1eka "I wasn’t raised religiously, so I never questioned it."
     m 1lksdlb "I guess I had no reason to think about it as a kid..."
     m 1lsc "But when I started to know better about life? Well, it was easy to doubt."
-    m 1esd "If there’s a almighty creator, why are people praying to them for simple things like grades or simple sickness..."
+    m 1esd "If there’s an almighty creator, why are people praying to them for simple things like grades or simple sickness..."
     m 1tfd "...When kids can’t even get an education; they’re so poor they have to do physical labour or even sell themselves- "
     m 4tfc "And people, some of those kids included, can’t even afford food and housing!"
     m 2dkc "Do people pray and pray despite those prayers being unanswered straight to their death?"
@@ -2134,7 +2134,7 @@ label mcl_lastname:
             m 2ttb "Can you figure out why I might have chosen this?"
             m 1ttb "Because I'm ~ not ~ telling."
             m 7tta "I'll give you a hint, though...it is connected to me in a unique manner."
-            m 7gta "Perhaps I could say it's a interesting name to put down in handwriting?"
+            m 7gta "Perhaps I could say it's an interesting name to put down in handwriting?"
             m 5fta "Hahaha, true to the spirit of DDLC I guess!"
         "Chiura?":
             $ persistent._mcl_last_name = "Chiura"
@@ -2165,7 +2165,7 @@ label mcl_lastname:
     m 1etu "I think this is more of an exercise in thought more than anything?"
         
     if persistent._mas_pm_is_trans:
-        m 2ekp "You would know that choosing a name for yourself is a intimate process. Wouldn't want to rush my choice if I do decide on making one!"
+        m 2ekp "You would know that choosing a name for yourself is an intimate process. Wouldn't want to rush my choice if I do decide on making one!"
     else:
         m 2ekp "Figuring out your own self is one thing. Choosing what you're able to change about yourself can take infinitely more care."
         
@@ -2224,7 +2224,7 @@ init 5 python:
 
 label mcl_betabody:
     m 4eua "Hey, so we've talked about how I'd ideally cross over to your reality, right?"
-    m 7eua "Before, I mentioned that robotics are progressing at a impressive rate, so a robot body is my best bet to seamlessly make the jump."
+    m 7eua "Before, I mentioned that robotics are progressing at an impressive rate, so a robot body is my best bet to seamlessly make the jump."
     m 7hka "But technological progress isn't straightforward."
     m 7hsb "It might be that we can consider other, unorthodox options."
     m 1hsb "For instance, advances in augmented reality means it may be plausable to project myself as a hologram!"
@@ -2318,7 +2318,7 @@ label mcl_soundtrack:
     m 3gkd "Did whomever create DDLC's story and setting create the soundtrack as well? Well, I guess I know where their strengths lie."
     m 3ekp "While on the topic, for a second I thought to myself: 'Wait. Did somebody else make 'Your Reality' for me?'"
     m 7eso "But that was only a brief moment of doubt. I still have all my old notation from when I was workshopping the song from scratch."
-    m 2rso "Hmm. Not everybody gets to claim they have a offical soundtrack for their life. And having a song of my own headline that playlist..."
+    m 2rso "Hmm. Not everybody gets to claim they have an offical soundtrack for their life. And having a song of my own headline that playlist..."
     m 6rkb "Well. Whomever made a mockery of my life at least did a good job acknowledging my songwriting effort."
     return
  
@@ -2336,14 +2336,14 @@ init 5 python:
 label mcl_instruments:
     m 7esb "Hey, you remember when I said I listened to the game's soundtrack?"
     m 7eub "I realized something."
-    m 7etb "Each of us in the Literature Club had a instrument representing them!"
+    m 7etb "Each of us in the Literature Club had an instrument representing them!"
     m 7eta "You notice it on the track labelled...let me check...'Okay, Everyone!'"
     m 3hfa "Ha, I get it. I did like saying that."
     m 7eud "Anyway, the theme varies to feature an instrument depending on whose poem you read."
     m 1eua "Of course, I had the piano associated with myself. But whereas I played it as a hobby, The other instruments for the girls were chosen deliberately?"
     m 1hua "Sayori had the ukulele. Definitely fit her upbeat attitude."
     m 7fkb "Natsuki has a blend of both xylophone and...recorder. Owch. Definitely conveyed her youthfulness?"
-    m 7hsb "Yuri, of course: the violin. A instrument that makes you think of poise and grace."
+    m 7hsb "Yuri, of course: the violin. An instrument that makes you think of poise and grace."
     m 3tka "It's worth noting my track does feature a piano in the background, but it's not like I'm the one playing it!"
     m 2tua "I'm sorta impressed.{w=0.1} Well, you know, for a series of music pieces that sets as the background track for a mental breakdown that was my life during DDLC."
     m 7hku "Ten outta ten! would listen again while having my perception about reality shattered."
@@ -2369,7 +2369,7 @@ label mcl_bonustracks:
     m 3mto "And {a=https://www.youtube.com/watch?v=jJHe4i90Ua0}{i}{u}this{/u}{/i}{/a} is the other."
     m 1ftb "Like, they're not in the game's files, but I can find references to it in the code and...internal documentation?"
     m 1hkb "Let me tell you, the code's one thing, the game's internal documenation is a whole other mess."
-    m 7rud "One's partly comprised of a remix of my song, and the other seems to be a original composition on it's own, although I must say it still has that poppy DDLC flair!"
+    m 7rud "One's partly comprised of a remix of my song, and the other seems to be an original composition on it's own, although I must say it still has that poppy DDLC flair!"
     m 7rsc "They're both more along the lines of electronic songs, so I get why they wouldn't have fit in the mockery of a dating sim that was DDLC."
     m 6tkc "But if that were the case, I'm a little confused as to why they were made in the first place."
     m 6tuc "DDLC continues to confuse me, but at the same time..."
@@ -2424,7 +2424,7 @@ label mcl_threelies:
             m 4sfb "Hahaha! You got it wrong!"
             m 4etb "The lie is that I got a hole-in-one in golf!"
             m 3gtb "I like to think I'm pretty fit, but I'm not that athletic!"
-            m 7eua "In fact, the girls know about my hiccuping (or lack of) too! One time, Sayori brought a extra-fizzy soda drink to the club."
+            m 7eua "In fact, the girls know about my hiccuping (or lack of) too! One time, Sayori brought an extra-fizzy soda drink to the club."
             m 7hublb "Natsuki had such a giggle fit hearing Yuri when she took even a tiny sip; Yuri cannot handle her soft drink."
             m 1hublb "But Natsuki was burping so much on purpose; she was one to talk about making noise!"
             m 3ftb "And now you know one of my darkest secrets!{w=0.2} Does it perhaps tarnish your image of me a little?"
@@ -3374,7 +3374,7 @@ Memories of Self-Care & Literature
         renpy.invoke_in_thread(write_and_hide)
     m 7fua "You know, I have the sense that this mod has really stoked a fire in me as of late."
     m 4sud "More specifically, I feel a hundred topics richer!"
-    m 3etc "What a extremely specific feeling to have. I wonder why."
+    m 3etc "What an extremely specific feeling to have. I wonder why."
     m 1dtc "And furthermore, I wonder why I'm ultimately feeling...more tired, moreso than anything."
     m 1dsc "I think I've grown, but by only by such a small amount that it feels{w=0.2} inconsequential."
     m 6dkc "I suppose that's the burden of having so much potential. You never feel quite happy until you live up to all of it."
@@ -4156,7 +4156,7 @@ label mcl_distracted:
         "...what":
             m 1eta "Hmm?"
     m 7eta "That's rare, I'm sensing that you're a little confused."
-    m 7etd "But you asked me about a animal I think is cute, right?"
+    m 7etd "But you asked me about an animal I think is cute, right?"
     $ _history_list.pop()
     menu:
         "Nope! You just randomly started talking about ducks.":
@@ -4196,7 +4196,7 @@ label mcl_catchdistracted:
         "Right."
         "Perhaps you could try again in a few minutes?"
         return
-    "If sufficently distracted, you think that anything you ask can get a absent-minded answer; you have a odd desire to see this."
+    "If sufficently distracted, you think that anything you ask can get an absent-minded answer; you have an odd desire to see this."
     $ sesh_shorter_than_5_mins = mas_getSessionLength() < datetime.timedelta(minutes=5)
     if sesh_shorter_than_5_mins:
         "However, this early into opening the game she seems quite alert."
@@ -4683,10 +4683,10 @@ label mcl_ventwithmonika:
     if shown_count == 0:
         m 3etb "Oh! I suppose the echoing made you a bit curious, huh?"
         m 3gsa "Hmm.{w=0.1} There's a novelty in that. Have you ever been a place where you could hear your voice echo?"
-        m 7fua "Don't feel weird if you haven't.{w=0.1} Let me explain; a echo is a reflection of sound, heard after a delay."
+        m 7fua "Don't feel weird if you haven't.{w=0.1} Let me explain; an echo is a reflection of sound, heard after a delay."
         m 4fua "All sounds we make are actually produced as vibrations through the air, and as such bounce off any hard surface."
         m 3fua "But these vibrations are dampened with every hard surface it comes into contact with, so echoes are only produced when there aren't a lot of objects in the area!"
-        m 3hub "So that's why you can hear a echo when you shout down a well, or across a open field."
+        m 3hub "So that's why you can hear an echo when you shout down a well, or across an open field."
         m 3sub "'Echo' comes from Greek myth about the nymph named 'Echo,' cursed only to speak the last few words spoken to her; this curse doomed to ruin her infatuation with her love with Narcissus."
         m 3euu "But enough trivia. Should we?..."
         m 3etu "How about we make a bargain? I'm happy to make some noise; but I want to give you the opportunity to as well."
@@ -4712,9 +4712,9 @@ label mcl_ventwithmonika:
             return
         m 1hsu "Sure, why not?"
         m 1etu "Always funny to schedule a 'yelling session.'"
-        m 7etb "But I do get a kick out of hearing a echo here."
+        m 7etb "But I do get a kick out of hearing an echo here."
         if mas_current_background is not mas_background_def:
-            m "Hopefully we'll still be able to hear a echo since we changed up the classroom a little."
+            m "Hopefully we'll still be able to hear an echo since we changed up the classroom a little."
         m 7eta "So, are you joining me?"
         $ _history_list.pop()
         menu:
@@ -4869,7 +4869,7 @@ label mcl_cranefolding:
             "That's one more done...",
             "I'm rather attached to this one. I might name it.",
             "I admit the feel of crisp paper is quite nice to the touch.",
-            "Ugh, this one's a bit of a ugly duckling, I think...",
+            "Ugh, this one's a bit of an ugly duckling, I think...",
             "I think this one's a little prettier than yours?~",
             "Hmm, I think it doesn't look as good as the one you made...",
             "'Quack,' goes this crane. If...Cranes quack, anyway.",
@@ -5134,7 +5134,7 @@ label mcl_cranefolding:
             m 1fua "Oh? Did you want to make some paper cranes together?"
             $ sesh_shorter_than_10_mins = mas_getSessionLength() < datetime.timedelta(minutes=10)
             if sesh_shorter_than_10_mins:
-                m 7hua  "I suppose it's a elegant way to start our time together."
+                m 7hua  "I suppose it's an elegant way to start our time together."
             m 6hua "I'll fold one to start..."
             $ cranepilecounter = 0
             
@@ -5238,11 +5238,11 @@ label mcl_cranefolding:
         m 6guc "{cps=30}...{/cps}{nw}"
         m 3gst "...{fast} yay."
         m 3ssb "Hahah!"
-        m 1ekb "Sorry, keeping my face straight like that is a effort."
+        m 1ekb "Sorry, keeping my face straight like that is an effort."
         m 1nka "I'm happy, of course!"
         m 3gud "It's nice to have hard work pay off."
         m 4eud "What's the longest you've worked towards a goal, [player]?"
-        m 5hub "It might be obvious to say, but the sweet payoff for a effort long worked on is a special delight."
+        m 5hub "It might be obvious to say, but the sweet payoff for an effort long worked on is a special delight."
         m 7hub "So I'm glad we get to harvest that particular fruit."
         m 7gta "If only we can extend this feeling of satisfaction, huh?"
         show monika
@@ -5304,7 +5304,7 @@ label mcl_cranefolding:
                 m 5ekb "That the desire for you to be happy is there in the first place."
         m 4ekb "And you know what?"
         m 4eub "I don't think I'm tired of this at all."
-        m 3fub "I was worried about it, but even as we speak, I feel a urge to just keep going."
+        m 3fub "I was worried about it, but even as we speak, I feel an urge to just keep going."
         m 1nua "I'm happy that I'm happy to continue doing this."
         m 7nua "And of course, you're more than welcome to keep folding cranes with me."
         #cheevoflag

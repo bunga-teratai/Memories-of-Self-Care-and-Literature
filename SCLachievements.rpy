@@ -1,5 +1,5 @@
 #I am so sorry.
-#This is absolutely the furthest from an actual unique ren'py menu, let alone a elegantly coded achievement menu.
+#This is absolutely the furthest from an actual unique ren'py menu, let alone an elegantly coded achievement menu.
 #But given the specific needs for this menu, it...works, for what it's worth.
 
 init 5 python:
@@ -57,7 +57,7 @@ label mcl_startachievement:
                 m 7hua "I'm glad I asked, then."
                 m 5htd "I get that adding this would feel a bit too out of place in our dynamic."
                 m 4esd "But if you're ever interested, feel free to re-run this topic."
-                m 3esu "Who needs a special system when every day is a achievement with you?"
+                m 3esu "Who needs a special system when every day is an achievement with you?"
                 $ persistent._mcl_achievementtoggle = False
                 return
         m 3tkb "Now when I say 'special menu,' I mean I’ll write it all down in a spare school notebook I found, hahaha."
@@ -187,7 +187,7 @@ label mcl_menuachievement:
             jump achievementmenu
         "Onu!" if mas_nou.get_wins_for('Player') >= 5:
             m "You've won at least five games of Nou!"
-            m "It's a especially chaotic game luck can wildly swing in both your way and mine at any given part of the game."
+            m "It's an especially chaotic game luck can wildly swing in both your way and mine at any given part of the game."
             m "It always makes for a fun time..."
             m "Especially when I steal a win from you."
             m "Hehehe."
@@ -330,7 +330,7 @@ label mcl_cardgamehistory:
     m 6ssb "Congratulations on getting our Nou achievement, [player]!"
     m 1nsb "Having gone through a few rounds, I've found that aside from board games like Chess I’m quite fond of playing cards."
     m 3nsb "Not just because of Nou. I think I'd like to have a deck of cards always at the ready when I get to your world."
-    m 3esb "I’ve always found handling a deck of cards to be a elegant pastime. Cards certainly have their history!"
+    m 3esb "I’ve always found handling a deck of cards to be an elegant pastime. Cards certainly have their history!"
     m 4esd "The earliest examples can be traced back to ninth century China, where the progression of paper-printing technology supposedly introduced playing cards that could also double as paper currency."
     m 4esa "Despite being relatively newer than board games, your standard deck of fifty-two cards is far easier to find throughout the world. It makes sense; cards are easier to make than entire board sets."
     m 5gsa "Which is why cards are often found with travellers, those in the military, minimalists with little on their person..."
@@ -377,7 +377,7 @@ label mcl_bongcloudchess:
     m 3eku "This is one of the {i}worst{/i} possible moves you can do in chess."
     m 3stu "It's absolutely, definitively a terrible starting point for the player that does it."
     m 3ftu "It limits movement of your key players: the queen and the bishop. Your king is exposed to attack. And so you gain no advantage whatsoever."
-    m 7hfsdra "It's such a impressively terrible move that it's become a meme, with a appropiately funny name: the 'Bongcloud.'"
+    m 7hfsdra "It's such an impressively terrible move that it's become a meme, with an appropiately funny name: the 'Bongcloud.'"
     hide bongcloud
     show monika at t11
     m 4ssa "It’s been observed that funnily enough, professionals can be completely shaken by complete novices;"

@@ -69,7 +69,7 @@ label mcl_compliment_posture2:
     return
 
 label mcl_compliment_posture3:
-    m "Oh gosh. Every time you say this, I feel like it's such a odd thing to be flattered about."
+    m "Oh gosh. Every time you say this, I feel like it's such an odd thing to be flattered about."
     m "Even by flattering standards, I'm quite happy hearing this compliment from you..."
     m "...And you already say some {i}very{/i} flattering things to me."
     m "So thank you again, [player]."

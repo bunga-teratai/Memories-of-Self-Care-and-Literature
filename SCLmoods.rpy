@@ -94,7 +94,7 @@ init 5 python:
 
 label mcl_mood_philosophical:
     m 1ntb "Tackling the abstract today, huh [player]?"
-    m 1dsd "Are you musing on a idea you've just heard about, or a tenet you're building from the ground up?"
+    m 1dsd "Are you musing on an idea you've just heard about, or a tenet you're building from the ground up?"
     m 1sub "Tell me all about it, [player]; but first, let me set the mood."
     m 7dsd "Oscar Wilde noted:"
     m 7dfd "{i}'Most people are other people. Their thoughts are someone else's opinions, their lives a mimicry, their passions a quotation.'{/i}"

@@ -19,5 +19,5 @@ label mcl_sourcefiles:
     m 4esc "Otherwise, you'll eventually encounter errors, especially when MAS will try to load any assets like pictures!"
     m 4esa "Please uninstall the source files by deleting the files and downloading the correct release from the {a=https://github.com/Barsonvenus/Memories-of-Self-Care-and-Literature/releases}{i}{u}release page{/u}{/i}{/a}."
     m 4hsa "Make sure to do this for any future updates as well!"
-    m 3hsa "It's a easy mistake to make, [player]. Thanks for letting me steer you on the right course!"
+    m 3hsa "It's an easy mistake to make, [player]. Thanks for letting me steer you on the right course!"
     return

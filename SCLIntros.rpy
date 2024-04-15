@@ -165,7 +165,7 @@ label greeting_talktoherself:
         m 6wusdrc "Wait. {i}Wait!{/i} -"
         m 6wkbfsdlp "...[player]?!"
         m 7wublsdrc "Um. Okay, I can explain."
-        m 1rublsdra "Talking to yourself isn't...abnormal; it can be observed in children vocalizing their thoughts when they're at a age where they're developing to process information."
+        m 1rublsdra "Talking to yourself isn't...abnormal; it can be observed in children vocalizing their thoughts when they're at an age where they're developing to process information."
         m "It's also thought to serve to fill in silence when you're alone, as humans are social creatures by nature."
         m 1msa "I thought I could naturally branch out and see if I could preoccupy my time a little further..."
         m 1hua "It did not work out the way I thought."
@@ -341,7 +341,7 @@ label greeting_turnonthelights:
     python:
         randomdarkquips = [
             _("Did we forget to pay our electricity bill?"),
-            _("I don't suppose a eclipse is happening today?"),
+            _("I don't suppose an eclipse is happening today?"),
             _("Did we forget to program the sun correctly?"),
             _("I don't suppose the laws of physics needs a patch to download?"),
             _("Do we need to change a lightbulb?"),
