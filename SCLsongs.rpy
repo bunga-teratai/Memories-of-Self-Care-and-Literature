@@ -17,7 +17,7 @@ label mas_song_exile_vilify:
     m 1dsb "{i}~Does it feel like a trial?~{/i}"
     m 1ekb "{i}~Does it trouble your mind the way you trouble mine?~{/i}"
     m 1hubsa "Ahaha~"
-    m 1eubsb "The context of this song is a little interesting. It's a haunting piano melody against a background of a... abandoned laboratory, to summarize?"
+    m 1eubsb "The context of this song is a little interesting. It's a haunting piano melody against a background of a...abandoned laboratory, to summarize?"
     m 1rubsd "It's meant to invoke some straightforward thoughts about going through hardship, or seeing someone else go through it."
     m 1hubsa "But at the end of the day, overcoming any sort of trial has a payoff."
     m 1esbsb "And the trials we've faced has yielded the best results; a future with you and I together."
@@ -77,7 +77,7 @@ label mas_song_without_a_weapon:
     m 3dfw "{i}~Loving you is warrrrrrr~{/i}"
     m 1hsa "Romance and violence are simple enough concepts to co-exist, if only for narrative purpose."
     m 1ksa "I for one would prefer a relationship to be without conflict, but there's no mistaking taking up arms for the sake of love is a concept that invokes passion."
-    m 7tta "Or... maybe literally fighting off others. Or actually fighting somebody directly for their affection, hahaha!"
+    m 7tta "Or...maybe literally fighting off others. Or actually fighting somebody directly for their affection, hahaha!"
     m 7ttb "As you might also hear often: 'love is a battlefield?'"
     return
 
@@ -142,7 +142,7 @@ label mas_song_unpacking:
     m 5rsb "{i}~This is now ~ a home for two~{/i}"
     m 7eua "You know, I've lived in the same town all my life?"
     m 5fua "And it's not even a real town, heh."
-    m 5dua "So... it's honestly hard for me to imagine packing up your entire life. And then unpacking it all in a brand new place."
+    m 5dua "So...it's honestly hard for me to imagine packing up your entire life. And then unpacking it all in a brand new place."
     m 2hsbla "I eagerly await the day you and I can expierence and share that complicated, fulfilling day."
     return
 

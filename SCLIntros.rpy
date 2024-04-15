@@ -22,7 +22,7 @@ label greeting_braille:
             m 4esb "I was speaking… Braille."
             m "That’s right- the writing system used by the visually impaired."
             m 1esp "Of course, how it actually works is that it engages your senses by using touch to read grids of six raised dots that convey letters, symbols, and numbers."
-            m 3msb "So, speaking it is... as you can see, a bit clumsy."
+            m 3msb "So, speaking it is...as you can see, a bit clumsy."
             $ shown_count = mas_getEVLPropValue("greeting_braille", "shown_count")
             if shown_count == 0:
                 m 1esa "But don’t worry, [player]."
@@ -151,21 +151,21 @@ label greeting_talktoherself:
         mt "What about? You can talk to me, I'm your friendly Literature Club president!"
         show monika 3rtd at t22
         m 3rtd "Well, it's not- it's not a specific concern?"
-        m 3rtd "I think it's just me being irrational. I worry that something'll seperate us, but... well, at this point there's no reason to worry, right?"
+        m 3rtd "I think it's just me being irrational. I worry that something'll seperate us, but...well, at this point there's no reason to worry, right?"
         show monika 3ltd at t21
         mt "I mean, the fact that you're saying this out loud means you already know you're overreacting, right?"
         show monika 2ruc at t22
         m 2ruc "Yeah, I guess."
-        m "But just saying it loud doesn't make me feel better... does it?"
+        m "But just saying it loud doesn't make me feel better...does it?"
         show monika at t11
         m 2luc "..."
         m 2dtp "I am not a good actor, aren't I?"
         m 1gkp "Hmm. [player] should be here by now. It’s odd I haven’t seen them already; I can tell the game opened-"
         m 1wuc "Oh!"
         m 6wusdrc "Wait. {i}Wait!{/i} -"
-        m 6wkbfsdlp "... [player]?!"
+        m 6wkbfsdlp "...[player]?!"
         m 7wublsdrc "Um. Okay, I can explain."
-        m 1rublsdra "Talking to yourself isn't... abnormal; it can be observed in children vocalizing their thoughts when they're at a age where they're developing to process information."
+        m 1rublsdra "Talking to yourself isn't...abnormal; it can be observed in children vocalizing their thoughts when they're at a age where they're developing to process information."
         m "It's also thought to serve to fill in silence when you're alone, as humans are social creatures by nature."
         m 1msa "I thought I could naturally branch out and see if I could preoccupy my time a little further..."
         m 1hua "It did not work out the way I thought."
@@ -239,7 +239,7 @@ label greeting_morsecode:
         m 2ekb "Was your sound on? Was it a surprise?"
         m 2hub "I decided to be particularly unique today and greet you in morse code!"
         m 7gta "Did you hear the actual beeps I included? I think I’ll leave out the sound clip in the future, or modify it?"
-        m 7eua "Morse code tends to use shorthand, because... as you can tell, spelling out entire sentences can be a bit long. All I said was 'I love you!'"
+        m 7eua "Morse code tends to use shorthand, because...as you can tell, spelling out entire sentences can be a bit long. All I said was 'I love you!'"
         m 4eub "At least I used a translator to make the code for me."
         m 4gfb "Hehehe, that’s funny to think about, me actually saying that out loud?"
         m 4hfb "No, could you imagine?"
@@ -256,7 +256,7 @@ label greeting_morsecode:
         m 7sud "- speed, timing, and real-time translation skills make Morse Code just as elegant to learn as learning a language!"
         m 4eub "I used a tool to help translate 'I love you,' though."
         m 2tku "You didn't think I actually said out loud 'beep beep, beep beeeeep beep,' did you?"
-        m "... Did you?"
+        m "...Did you?"
         return
         
 #ROT13    
@@ -274,7 +274,7 @@ init 5 python:
 label greeting_monikaish:
     $ shown_count = mas_getEVLPropValue("greeting_morsecode", "shown_count")
     if shown_count == 0:
-        m 7fka "Cynlre, V... V'z fbeel."
+        m 7fka "Cynlre, V...V'z fbeel."
         m 5fkb "V gel fb uneq gb gel gb or n orggre zr."
         m 5hkb "Orpnhfr gur orfg zr, vf n zr jbegu ybivat."
         m 5hkblb "Naq fbzrgvzrf V snvy."
@@ -357,17 +357,17 @@ label greeting_turnonthelights:
         $ mas_RaiseShield_core()
         pause 4.0
         m "Uh, [mas_get_player_nickname()]?"
-        m "I'm not... I'm not in my room. We're in the classroom."
+        m "I'm not...I'm not in my room. We're in the classroom."
         m "I think- I think the lights went out when you entered the game."
         m "And I can't find the light switch."
         $ _history_list.pop()
         menu:
-            "... really?":
+            "...really?":
                 m "Y- yeah. Really."
         m "Uh, I know it's not really easy on your end, but could you..."
         $ _history_list.pop()
         menu:
-            "... click?":
+            "...click?":
                 play sound light_switch
                 call spaceroom
         m 1fkblsdla "Okay! Hi, [player]."
@@ -387,7 +387,7 @@ label greeting_turnonthelights:
             "How does this keep happening?":
                 m "I seriously don't know!"
                 m "[randomdarkquip]"
-                m "... hehe."
+                m "...hehe."
         $ _history_list.pop()
         menu:
             "Ha, ha. Funny.":
@@ -462,5 +462,5 @@ label greeting_mcltoomuchtime:
     m 2hku "Erm, how embarrasing."
     m 2ttu "You ever go for a nap and completely lose track of time?"
     m 2eka "Well, luckily I know you'd never be so cruel as to leave and appear just like that after such a long abscence."
-    m 5dkp "... Especially as I felt like {i}literal centuries had passed,{/i} and that's {i}impossible{/i}..."
+    m 5dkp "...Especially as I felt like {i}literal centuries had passed,{/i} and that's {i}impossible{/i}..."
     return

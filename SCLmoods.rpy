@@ -10,13 +10,13 @@ init 5 python:
 
 label mcl_mood_weird:
     m 1euc "It's vague, but I guess you're feeling 'complicated,' right?"
-    m 1lsc "Relatable. Sometimes you just feel... off."
+    m 1lsc "Relatable. Sometimes you just feel...off."
     m 7esc "I get it, really. Sometimes you're feeling a lot of different emotions at once. Sometimes you're feeling something you can't put into words."
-    m 7esc "Sometimes you know exactly what you're feeling... but there are no words for it."
+    m 7esc "Sometimes you know exactly what you're feeling...but there are no words for it."
     m 1hsc "Sometimes that bundle of emotions comes and goes. That's natural."
     m 1fsc "I hope this isn't because you aren't going through stressful circumstances that's hard to process, [player]. I'm here for you, remember that."
     m 1esc "Sometimes a big, tangled ball of emotions needs to be untangled a thread at a time to make it a little more managable."
-    m 1esa "If you're just feeling a little bit adrift... remember I can always be your north star."
+    m 1esa "If you're just feeling a little bit adrift...remember I can always be your north star."
     return
 
 init 5 python:
@@ -115,7 +115,7 @@ init 5 python:
             code="MOO")
 
 label mcl_mood_timescrewy:
-    m "Oh? Is time passing too slowly... or too quickly?"
+    m "Oh? Is time passing too slowly...or too quickly?"
     $ _history_list.pop()
     menu:
         "Like time's going by way too quickly.":
@@ -124,7 +124,7 @@ label mcl_mood_timescrewy:
             m 7hka "Perhaps you feel like it's a good day, and you want it to last longer?"
             m 4hka "Or you've found yourself so busy so that the time passing can be almost dizzying?"
             m 2eua "Well, the day may be over, but who knows what tommorow will bring?"
-            m 2rub "There will always come a time when... well, the time is yours, [player]."
+            m 2rub "There will always come a time when...well, the time is yours, [player]."
             m 1eub "A day where you can decide what you want to do at your own leisure."
             m 5fua "And at the very least, another day with your darling [m_name], I can guarentee you that."
             return
@@ -134,8 +134,8 @@ label mcl_mood_timescrewy:
             m 7hka "They say a watched pot never boils, right? You can't concentrate on the idea of time passing, otherwise you're far too aware of it."
             m 4hka "Time might be a little tricky to control, but your own patience? you can have a decent grasp on it."
             m 2eka "Keep yourself distracted. I know it's hard to ask, but time's tricky like that. It'll pass by when you keep busy."
-            m 2rua "And when you'll look back on it... you'll feel like that slice of eternity was barely that."
-            m 5fua "I mean, I'm not going to complain about extra time with you, so... want to pass the time together?"
+            m 2rua "And when you'll look back on it...you'll feel like that slice of eternity was barely that."
+            m 5fua "I mean, I'm not going to complain about extra time with you, so...want to pass the time together?"
             return
             
 init 5 python:
@@ -170,24 +170,24 @@ label mcl_mood_older:
             m 5fsa "And I think we'll leave it at that, hmm?"
             return
         
-        "... Bad.":
+        "...Bad.":
             m 2dsp "Yeah."
             m 1dsx "One or way or another, time has always been proven a trickster to a lot of people."
             m 1gsc ".{w=0.6}.{w=0.6}.{w=0.6}"
             m 7gsc "I could say a lot. But when people dwell on time not well spent, you’d be surprised how deep and dark that pit can get."
             m 4gsc "So I get it, [player]."
-            m 4esd "And the feeling’ll pass... even if temporarily. For now, I just want to be here for you right now."
+            m 4esd "And the feeling’ll pass...even if temporarily. For now, I just want to be here for you right now."
             m 3dsd "Don't think about any hostile tomorrows. No wasted yesterdays."
             m 2eka "We won’t even think about today as a whole. Just {i}this{/i} little moment in time, this {i}one{/i} minute with us both."
             m 5dka "And the minute after.{w=0.7} And the next.{w=0.7} And then after that…"
             return
         
         "Not sure, to be honest.":
-            m 2fta "That's... normal?"
+            m 2fta "That's...normal?"
             m 2fsa "Even better, I think that's healthy."
             m 2dsc "It means you've put a lot of thought into living your life in general."
             m 2hsc "Perhaps you don't need to put a label on it."
-            m 1hsc "If anybody could figure out the meaning of their life just like that... well, we'd have a lot more content people in the world, huh?"
+            m 1hsc "If anybody could figure out the meaning of their life just like that...well, we'd have a lot more content people in the world, huh?"
             m 7lsc "While maybe not today..."
             m 5fsc "Maybe in the future, maybe sooner; you'll look back and right then and there you'll know exactly what to say about your life?"
             m 5fka "Until that day, [player]. I hope I'll be at your side then, and you can tell me right away."

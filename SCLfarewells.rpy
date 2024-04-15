@@ -178,7 +178,7 @@ label bye_prompt_addingcode:
         
         else:
             m 1wso "Oh, you've really just got here? Did something update, or you must be eager to try out something you've just found?"
-            m 1etc "Or... a bit of code you've just given me needs a bit more tweaking?"
+            m 1etc "Or...a bit of code you've just given me needs a bit more tweaking?"
             m 1ekb "In either case, thanks for letting me know. I guess today's a bit of a workout!"
             m 7hub "Let's get started!"
             $ persistent._mcl_last_modifycode = datetime.datetime.now()
@@ -221,27 +221,27 @@ init 5 python:
 label mcl_shopformonikacoffee:
     python:
         coffee_choices = [
-            _("... I’m fine with instant coffee."),
-            _("... Dark roast, if you please! Feel like something a little strong."),
-            _("... Maybe some French Vanilla mix?"),
-            _("... I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
-            _("... Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
-            _("... Cold brew coffee; I could go for something rich!"),
-            _("... Decaf, please! Have to cut back on the caffeine a little."),
+            _("...I’m fine with instant coffee."),
+            _("...Dark roast, if you please! Feel like something a little strong."),
+            _("...Maybe some French Vanilla mix?"),
+            _("...I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
+            _("...Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
+            _("...Cold brew coffee; I could go for something rich!"),
+            _("...Decaf, please! Have to cut back on the caffeine a little."),
         ]
         coffeechoices = random.choice(coffee_choices)
        
     python:
         hotchocolate_choices = [
-            _("Maybe... mint?"),
-            _("Maybe... caramel?"),
-            _("Maybe... white chocolate?"),
-            _("Maybe... ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
-            _("Maybe... peanut butter-flavoured?"),
-            _("Maybe... that brand with a bit of cinnamon in it?"),
-            _("Maybe... one made with dark chocolate?"),
-            _("... I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
-            _("... Actually, no, scratch that, I could go for a pick-me-up of coffee."),
+            _("Maybe...mint?"),
+            _("Maybe...caramel?"),
+            _("Maybe...white chocolate?"),
+            _("Maybe...ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
+            _("Maybe...peanut butter-flavoured?"),
+            _("Maybe...that brand with a bit of cinnamon in it?"),
+            _("Maybe...one made with dark chocolate?"),
+            _("...I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
+            _("...Actually, no, scratch that, I could go for a pick-me-up of coffee."),
         ]
         hotchocolatechoices = random.choice(hotchocolate_choices)
     
@@ -330,20 +330,20 @@ label bye_prompt_shopformonika:
             _("Maybe… peanut butter-flavoured?"),
             _("Maybe… that brand with a bit of cinnamon in it?"),
             _("Maybe… one made with dark chocolate?"),
-            _("... I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
-            _("... Actually, no, scratch that, I could go for a new flavour of coffee."),
+            _("...I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
+            _("...Actually, no, scratch that, I could go for a new flavour of coffee."),
         ]
         hotchocolatechoices = random.choice(hotchocolate_choices)
     
     python:
         coffee_choices = [
-            _("... I’m fine with instant coffee."),
-            _("... Dark roast, if you please! Feel like something a little strong."),
-            _("... Maybe some French Vanilla mix?"),
-            _("... I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
-            _("... Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
-            _("... Cold brew coffee; I could go for something rich!"),
-            _("... Decaf, please! Have to cut back on the caffeine a little."),
+            _("...I’m fine with instant coffee."),
+            _("...Dark roast, if you please! Feel like something a little strong."),
+            _("...Maybe some French Vanilla mix?"),
+            _("...I have a particular desire for canned coffee. In Japan, there’s a lot of variety, you know~"),
+            _("...Coffee Milk sounds like a nice change of pace. Do you know of it? I think it’s popular in Australia; it’s coffee syrup in milk."),
+            _("...Cold brew coffee; I could go for something rich!"),
+            _("...Decaf, please! Have to cut back on the caffeine a little."),
         ]
         coffeechoices = random.choice(coffee_choices)
     

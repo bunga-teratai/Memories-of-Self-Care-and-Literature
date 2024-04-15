@@ -1,6 +1,6 @@
 #I am so sorry.
 #This is absolutely the furthest from an actual unique ren'py menu, let alone a elegantly coded achievement menu.
-#But given the specific needs for this menu, it... works, for what it's worth.
+#But given the specific needs for this menu, it...works, for what it's worth.
 
 init 5 python:
     addEvent(
@@ -142,12 +142,12 @@ label mcl_menuachievement:
         "~Next Page~":
             jump achievementmenutwo
         "Accomplishing Achievements":
-            m "A default achievement to commemorate us... achieving."
+            m "A default achievement to commemorate us...achieving."
             m "This doesn't add to the total, but you should still be proud of it!"
             m "In the way you should be proud of just existing, anyway."
             jump achievementmenu
         "Quelle Surprise" if persistent._mcl_surpriseachievement: 
-            m "It's only fair you managed to pull a sneaky move on me, after all the... teasing I've done to you."
+            m "It's only fair you managed to pull a sneaky move on me, after all the...teasing I've done to you."
             m "So this is your monument to that accomplishment!"
             m "Oh, but when I get to your reality."
             m "I'm going to hide around corners, tackle you with surprise hugs, maybeillscareyoutodeathsometime, plan plenty of surprise parties..."
@@ -173,7 +173,7 @@ label mcl_menuachievement:
             m "You've won at least five games of chess!"
             m "I know that doesn't seem like a lot, but I appreciate you playing with me."
             m "Unsurprisingly, Chess is a game which really makes you think!"
-            m "There's a difference between playing a game with someone and... {i}really{/i} playing a game with someone."
+            m "There's a difference between playing a game with someone and...{i}really{/i} playing a game with someone."
             m "So thank you for putting that effort in with me."
             $ persistent._mcl_chessachievement = True
             jump achievementmenu
@@ -205,7 +205,7 @@ label mcl_menuachievement:
         "~Previous Page~":
             jump achievementmenu
         "AAAAAAAAAAAA" if persistent._mcl_achievementyell:
-            m "... AAAAAAAAAAHHHHHHHH."
+            m "...AAAAAAAAAAHHHHHHHH."
             m "Ahem."
             m "You know, being emotional with a partner; not like, being angry at you, but being angry with you at something:"
             m "That's a surprisingly great activity to bond over."
@@ -215,7 +215,7 @@ label mcl_menuachievement:
         "Queen of Flightless Birds" if persistent._mcl_achievementcrane:
             m "I have the very first crane I made tucked away somewhere."
             m "It's particularly beat up, and I love it all the more for that. I think I'll take special care of it."
-            m "It'll remind me of you. It'll remind me of... Well, me and my efforts!"
+            m "It'll remind me of you. It'll remind me of...Well, me and my efforts!"
             m "And it'll remind me that we completed our humble little goal of folding paper cranes."
             jump achievementmenutwo
         "{color=#a63da2}???{/color}" if  persistent._mcl_achievementcrane is False:
@@ -230,7 +230,7 @@ label mcl_menuachievement:
             jump achievementmenutwo
         "~Reset all Achievements~":
             m "I- really?"
-            m "... {i}Why,{/i} exactly?"
+            m "...{i}Why,{/i} exactly?"
             m "I made this in order for us to commorate certain milestones together."
             m "We really can't {i}reverse{/i} those moments, [player]. They've already happened."
             m "Are you sure about this?"
@@ -290,7 +290,7 @@ label mcl_achievementalk:
     m 7lta "I'm happy to hear the system is working out for us. It feels a little weird making our relationship a little more elaborate like this..."
     m 3tta "But well, it does suit my circumstances, living in a virtual reality."
     m 3dta "With that said, I'm doubly happy because I was a little apprehensive about making achievements in the first place."
-    m 1dka "I understand the reality of... my reality.{w=0.1} DDLC was a game.{w=0.1} I am {i}still{/i} living in a game."
+    m 1dka "I understand the reality of...my reality.{w=0.1} DDLC was a game.{w=0.1} I am {i}still{/i} living in a game."
     m 1hksdra "But I don’t want to make efforts to make my life {i}more{/i} like a game, you know?"
     m 7hksdra "So when I thought about ‘achievements’ for us, well..."
     m 7tksdra "I admit I wasn’t keen on the idea."
@@ -340,14 +340,14 @@ label mcl_cardgamehistory:
     m 7rup "In the same vein, you’d think programming card games for us to play would be easier than chess..."
     m 1hkp "But no. The game’s coding parameters continues to be illusive in that funny little manner."
     m 2dsp "Unfortunately, it took a lot of effort to get Nou up and running alone: and the effort doesn’t translate into programming other games, even simpler ones."
-    m 2gsa "I suppose you could watch me play solitaire by myself, but... ah, I don’t think that’s fun."
+    m 2gsa "I suppose you could watch me play solitaire by myself, but.. ah, I don’t think that’s fun."
     m 4eta "Oh, I suppose there’s worth talking about modern ‘trading card’ games."
     m 4eta "They’re certainly fascinating, especially as they adapt popular fictional universes for their setting or in some cases have created their own mythos."
     m 2eta "I would have always thought that’d be Natsuki’s thing, though- especially as a lot of these card games have ties to fantasy, manga, and anime."
-    m 3tub "Although sensibly thinking about it, she might have never had the time to play it... or the spare change needed to purchase the cards."
+    m 3tub "Although sensibly thinking about it, she might have never had the time to play it...or the spare change needed to purchase the cards."
     m 3hub "Or maybe she just wouldn’t have the patience to learn the rules, hahaha."
     m 4nuu "Whether or not we’re playing cards, or amusing ourselves with any other game together..."
-    m 5ftu "... As long as we’re together, that’s what matters to me. That fact won’t get lost in the shuffle."
+    m 5ftu "...As long as we’re together, that’s what matters to me. That fact won’t get lost in the shuffle."
     return
 
 
@@ -368,7 +368,7 @@ label mcl_bongcloudchess:
     m 7fta "About a rather {i}interesting{/i} move."
     m 7dsa "Let's picture a chessboard, all set up for the very first move."
     m 4dsa "First, you send your pawn out. Then your opponent mirrors your move. A textbook response."
-    m 3ctp "But then... then you move your king up in response."
+    m 3ctp "But then...then you move your king up in response."
     image bongcloud = "/submods/MoSCL/submod_assets/sprites/bongcloud.png"
     show monika at t21
     transform confidentialframe:
@@ -384,6 +384,6 @@ label mcl_bongcloudchess:
     m 4ssb "Because newer players will do moves so counter- even if it’s a detrimental move, and they’re not aware of it- to what the pro is accustomed to!"
     m 4etu "I mean, will this move throw your opponent so off-balance as to win you one game after another?"
     m 1gtu "There's precedent by modern chess players using this to their advantage.{w=0.2} But no, probably not."
-    m 1fub "But that’s the magic of chess. It's a game where every move has been carefully studied... and you can still be unpredictable, and win because of it."
-    m 5htb "Having a bit of fun while you're having fun... is pretty fun, isn't it?"
+    m 1fub "But that’s the magic of chess. It's a game where every move has been carefully studied...and you can still be unpredictable, and win because of it."
+    m 5htb "Having a bit of fun while you're having fun...is pretty fun, isn't it?"
     return
